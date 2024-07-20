@@ -20,6 +20,20 @@ header {
 
 /*Puzzle pieces alignment*/
 
+#puzzle {
+    width: 3rem;
+    height: 3rem;
+}
+
+/*Puzzle pieces media queries*/
+
+@media(min-width: 980px) {
+    #puzzle {
+        width: 5rem;
+        height: 5rem;
+    }
+}
+
 .puzzle-one,
 .puzzle-three {
     margin-top: -2rem;
@@ -27,7 +41,7 @@ header {
 
 .puzzle-two,
 .puzzle-four {
-    margin-Top: 3rem;
+    margin-top: 3rem;
 }
 
 /*Puzzl animation settings*/
