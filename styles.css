@@ -41,12 +41,12 @@ header {
 }
 
 .puzzle-three,
-.clockwise {
+clockwise {
     animation: rotatePuzzleThree 60s linear 2.5s infinite alternate;
 }
 
 .puzzle-four,
-.counterwise {
+counterwise {
     animation: rotatePuzzleFour 45s linear 1.5s infinite alternate;
 }
 
