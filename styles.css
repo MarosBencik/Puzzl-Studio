@@ -18,19 +18,17 @@ header {
 
 }
 
-/*Puzzle pieces alignment*/
+/*Header puzzle pieces alignment*/
 
-#puzzle {
+.puzzle {
     width: 3rem;
     height: 3rem;
 }
 
-/*Puzzle pieces media queries*/
-
-@media(min-width: 980px) {
-    #puzzle {
-        width: 5rem;
-        height: 5rem;
+@media (min-width: 2000px) {
+    .puzzle {
+        width: 8rem;
+        height: 8rem;
     }
 }
 
@@ -55,12 +53,12 @@ header {
 }
 
 .puzzle-three,
-clockwise {
+.clockwise {
     animation: rotatePuzzleThree 60s linear 2.5s infinite alternate;
 }
 
 .puzzle-four,
-counterwise {
+.counterwise {
     animation: rotatePuzzleFour 45s linear 1.5s infinite alternate;
 }
 
@@ -168,18 +166,17 @@ counterwise {
 
 /*Home section header settings*/
 
-#puzzle_vector_home_top {
-    grid-row: 1;
-    grid-column: 2;
-}
-
 .home-section-heading {
     grid-row: 1;
     grid-column: 5;
     text-decoration: underline;
     font-size: 1.5rem;
     text-align: center;
+}
 
+#align_top_center {
+    grid-row: 1;
+    grid-column: 3;
 }
 
 /*Home section introduction settings*/
@@ -212,12 +209,12 @@ counterwise {
 
 /*Bottom section puzzles alignment*/
 
-#puzzle_vector_bottom_left {
+#align_bottom_left {
     grid-row: 4;
     grid-column: 1/2;
 }
 
-#puzzle_vector_bottom_right {
+#align_bottom_right {
     grid-row: 4;
     grid-column: 4;
 }
@@ -310,16 +307,12 @@ counterwise {
 
 /*Puzzle head section settings*/
 
-#puzzle_vector_design_end {
+#align_top_end {
     grid-row: 2;
-    grid-column: 8;
-    width: 3rem;
-    height: 3rem;
+    grid-column: 7/9;
 }
 
 #puzzle_head_vector {
-    width: auto;
-    height: auto;
     grid-row: 2;
     grid-column: 1/3;
     margin-top: 0.5rem;
@@ -374,10 +367,7 @@ counterwise {
     align-self: center;
 }
 
-.puzzle-rotate {
-    grid-row: 1;
-    grid-column: 7/9;
-}
+
 
 /*Puzzl Design media queries settings*/
 
@@ -471,7 +461,6 @@ counterwise {
         font-size: 2.5rem;
     }
 
-    .puzzle-rotate,
     #puzzle_vector_design_end {
         width: 7rem;
         height: 7rem;
