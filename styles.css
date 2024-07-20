@@ -122,8 +122,19 @@ header {
     cursor: pointer;
 }
 
-navlink_bw:hover {
-    opacity: 1;
+@media(min-width: 740px) {
+    .navlink_bw {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        transition: all 0.4s ease-in-out;
+        cursor: pointer;
+    }
+
+    .navlink_bw:hover {
+        opacity: 1;
+    }
 }
 
 @media (min-width: 990px) {
