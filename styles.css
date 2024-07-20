@@ -320,7 +320,7 @@ header {
 
 #align_top_end {
     grid-row: 2;
-    grid-column: 7/9;
+    grid-column: 8/9;
 }
 
 #puzzle_head_vector {
@@ -373,8 +373,8 @@ header {
     grid-row: 2/9;
     grid-column: 1/6;
     padding: 1rem;
-    border-left: 1px solid rgb(13, 208, 208);
-    border-top: 1px solid rgb(13, 208, 208);
+    border-left: 2px solid rgb(13, 208, 208);
+    border-top: 2px solid rgb(13, 208, 208);
     align-self: center;
 }
 
@@ -478,6 +478,18 @@ header {
     }
 }
 
+
+#citation {
+    border-top: 2px solid rgb(13, 208, 208);
+}
+
+.logo-section {
+    border-top: 2px solid rgb(13, 208, 208);
+    border-right: 2px solid rgb(13, 208, 208);
+}
+
+
+
 .logo {
     position: relative;
 }
@@ -495,8 +507,6 @@ header {
     opacity: 0;
     transition: all 0.4s linear;
 }
-
-
 
 .logo:hover::before {
     opacity: 1;
