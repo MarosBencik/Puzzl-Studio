@@ -19,8 +19,7 @@
 <body>
 
     <section>
-
-        <header class="container-md">
+        <header class="container-md" id="home-section">
             <div class="puzzle-one"><img src="vectors/Puzzle_piece_1.svg" alt=""></div>
             <div class="puzzle-two"><img src="vectors/Puzzle_piece_2.svg" alt=""></div>
             <div class="company-logo"><a href="https://puzzl-studio.netlify.app"><img src="images/Company_logo.png"
@@ -30,17 +29,19 @@
         </header>
     </section>
 
-    <nav>
+    <nav class="sticky-top bg-black">
         <div class="navigation container-sm d-flex justify-content-evenly">
             <div class="navlink"><img src="images/navlinks/Navlink_home.png" alt="">
-                <div class="navlink_bw"><img src="images/navlinks/Navlink_home_bw.png" alt=""></div>
+                <div class="navlink_bw"><a href="#home-section"><img src="images/navlinks/Navlink_home_bw.png"
+                            alt=""></a></div>
             </div>
             <div class="navlink"><img src="images/navlinks/Navlink_puzzlDesign.png" alt="">
                 <div class="navlink_bw"><a href="#design-section"><img src="images/navlinks/Navlink_puzzlDesign_bw.png"
                             alt=""></a></div>
             </div>
             <div class="navlink"><img src="images/navlinks/Navlink_finishPuzzl.png" alt="">
-                <div class="navlink_bw"><img src="images/navlinks/Navlink_finishPuzzl_bw.png" alt=""></div>
+                <div class="navlink_bw"><a href="#finished-puzzls"><img src="images/navlinks/Navlink_finishPuzzl_bw.png"
+                            alt=""></a></div>
             </div>
             <div class="navlink"><img src="images/navlinks/Navlink_about.png" alt="">
                 <div class="navlink_bw"><img src="images/navlinks/Navlink_about_bw.png" alt=""></div>
@@ -83,8 +84,7 @@
                 <p>LOGO-DESIGNER, <i>Founder Puzzl Studio</i></p>
             </div>
             <img src="vectors/Puzzle_piece_3.svg" class="puzzle puzzle-rotate clockwise" id="align_bottom_left" alt="">
-            <img src="vectors/Puzzle_piece_2.svg" class="puzzle puzzle-rotate counterwise" id="align_bottom_right"
-                alt="">
+            <img src="vectors/Puzzle_piece_1.svg" class="puzzle" id="align_bottom_right" alt="">
             <img src="images/puzzle_vector_home_lg.jpg" id="puzzle_vector_lg" alt="">
         </div>
     </section>
@@ -114,7 +114,7 @@
                 'PUZZL,' we transform collections of ideas into cohesive, branded puzzle pieces that fit together
                 seamlessly. As a logo designer, I specialize in crafting designs that precisely represent your brand,
                 making each piece a perfect fit in your visual identity.</p>
-            <img src="vectors/Puzzle_piece_4.svg" class="puzzle puzzle-rotate counterwise" id="align_top_left" alt="">
+            <img src="vectors/Puzzle_piece_4.svg" class="puzzle" id="align_top_left" alt="">
         </div>
     </section>
 
@@ -149,34 +149,36 @@
         </path>
     </svg>
 
-    <section>
-        <div class="container-md">
-            <div class="row mt-3 p-2">
-                <div class="col-6" mt-5 id="citation">
+    <section class="Puzzls" id="finished-puzzls">
+        <div class="container-md mt-3">
+            <div class="row p-2">
+                <div class="col-12 border-color-heading">
+                    <p class="home-section-heading">FINISHED PUZZLS</p>
+                </div>
+                <div class="col-6 mb-5" id="citation">
                     <img src="images/Citation-image.png" alt="Everything begins with an idea quote">
                 </div>
-                <div class="col-6 logo-section">
-                    <p class="home-section-heading">FINISHED PUZZLS</p>
-                    <img src="vectors/Puzzle_piece_1.svg" class="puzzle puzzle-rotate clockwise" alt="">
+                <div class="col-6 mb-5 weekly-design">
+                    <div class="box"><img src="logo-designs/Finance beacon.png" alt=""></div>
                 </div>
-                <div class="col-6 mt-4 col-lg-4">
-                    <div class="logo"><img src="logo-designs/Tatrasklo_bw.png" alt="">
+                <div class="col-6 col-lg-4">
+                    <div class="logo"><img src="logo-designs/Tatrasklo.png" alt="">
                     </div>
                 </div>
                 <div class="col-6 col-lg-4">
-                    <div class="box">Box 2</div>
+                    <div class="box"><img src="logo-designs/Ecowind energy.png" alt=""></div>
                 </div>
-                <div class="col-6 col-md-4">
-                    <div class="box">Box 3</div>
+                <div class="col-6 col-lg-4">
+                    <div class="box"><img src="logo-designs/Mamut Hotel.png" alt=""></div>
                 </div>
-                <div class="col-6 col-md-4">
-                    <div class="box">Box 4</div>
+                <div class="col-6 col-lg-4 mt-md-3">
+                    <div class="box"><img src="logo-designs/Digitronix.png" alt=""></div>
                 </div>
-                <div class="col-6 col-md-4">
-                    <div class="box">Box 5</div>
+                <div class="col-6 col-lg-4 mt-3">
+                    <div class="box"><img src="logo-designs/Hortus.png" alt=""></div>
                 </div>
-                <div class="col-6 col-md-4">
-                    <div class="box">Box 6</div>
+                <div class="col-6 col-lg-4 mt-3">
+                    <div class="box"><img src="logo-designs/Lido Beach House.png" alt=""></div>
                 </div>
             </div>
         </div>

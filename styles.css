@@ -88,7 +88,7 @@ header {
     }
 
     100% {
-        transform: rotate(270deg) scale(1.6);
+        transform: rotate(270deg) scale(1.5);
     }
 }
 
@@ -478,17 +478,10 @@ header {
     }
 }
 
-
-#citation {
-    border-top: 2px solid rgb(13, 208, 208);
-}
-
-.logo-section {
-    border-top: 2px solid rgb(13, 208, 208);
-    border-right: 2px solid rgb(13, 208, 208);
-}
+/*Finishied puzzls section settings*/
 
 
+/*Hover settings for logo designs
 
 .logo {
     position: relative;
@@ -510,4 +503,19 @@ header {
 
 .logo:hover::before {
     opacity: 1;
+}*/
+
+/*Section heading border and alignment settings*/
+
+.border-color-heading {
+    border-top: 2px solid rgb(13, 208, 208);
+    border-left: 2px solid rgb(13, 208, 208);
+    display: flex;
+    justify-content: flex-end
+}
+
+/*Citation image color border settings*/
+
+#citation {
+    border-left: 2px solid rgb(13, 208, 208);
 }
