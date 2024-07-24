@@ -567,6 +567,7 @@ span {
 #box-border-lb {
     border-left: 1px solid rgba(205, 14, 209, 1);
     border-bottom: 1px solid rgba(205, 14, 209, 1);
+    margin-bottom: 5rem;
 }
 
 #box-border-rb {
