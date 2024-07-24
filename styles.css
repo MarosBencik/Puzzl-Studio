@@ -562,6 +562,14 @@ header {
 
 span {
     color: rgba(205, 14, 209, 1);
-    border-bottom: rgba(205, 14, 209, 1);
-    border-right: rgba(205, 14, 209, 1);
+}
+
+#box-border-lb {
+    border-left: 1px solid rgba(205, 14, 209, 1);
+    border-bottom: 1px solid rgba(205, 14, 209, 1);
+}
+
+#box-border-rb {
+    border-right: 1px solid rgba(205, 14, 209, 1);
+    border-bottom: 1px solid rgba(205, 14, 209, 1);
 }
