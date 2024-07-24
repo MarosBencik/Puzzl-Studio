@@ -22,6 +22,11 @@ header {
     margin-bottom: 1rem;
 }
 
+#navlink-home-img {
+    width: 144px;
+    height: 144px;
+}
+
 /*Header puzzle pieces alignment*/
 
 .puzzle {
