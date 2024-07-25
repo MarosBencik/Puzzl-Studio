@@ -24,7 +24,7 @@ header {
 
 /*Header puzzle pieces alignment*/
 
-.puzzle {
+puzzle {
     width: 3rem;
     height: 3rem;
 }
@@ -168,7 +168,7 @@ header {
 .home {
     height: auto;
     margin-top: 0.5rem;
-    border-bottom: 2px solid rgb(32, 155, 155);
+
 }
 
 .home-grid-layout {
@@ -178,14 +178,12 @@ header {
     grid-template-rows: repeat(4, 1fr);
     grid-template-columns: repeat(4, 1fr);
     padding: 0.5rem;
-    border-bottom: 3px solid rgb(32, 155, 155);
 }
 
 /*Home section header settings*/
 
 .section-heading {
-    grid-row: 1;
-    grid-column: 5;
+
     text-decoration: underline;
     font-size: 2rem;
     text-align: center;
@@ -245,7 +243,7 @@ header {
 
 @media (min-width: 540px) {
 
-    .home-section-heading {
+    .section-heading {
         font-size: 2.2rem;
     }
 
@@ -270,7 +268,7 @@ header {
         height: 600px;
     }
 
-    .home-section-heading {
+    .section-heading {
         font-size: 4rem;
     }
 
@@ -313,24 +311,15 @@ header {
     grid-template-columns: repeat(8, 12.5%);
 }
 
-.design-section-heading {
-    grid-row: 1;
-    grid-column: 1/4;
-    font-size: 1.5rem;
-    text-align: center;
-    text-decoration: underline;
-
-}
-
 /*Puzzle head section settings*/
 
 #align_top_end {
-    grid-row: 2;
+    grid-row: 1;
     grid-column: 8/9;
 }
 
 #puzzle_head_vector {
-    grid-row: 2;
+    grid-row: 1;
     grid-column: 1/3;
     margin-top: 0.5rem;
 }
@@ -347,7 +336,7 @@ header {
 }
 
 #puzzl-text-magenta {
-    grid-row: 5/9;
+    grid-row: 6/9;
     grid-column: 2/9;
     padding: 0.5rem;
     border-right: 1px solid rgba(205, 14, 209, 1);
@@ -359,12 +348,12 @@ header {
 /*Puzzle heart section settings*/
 
 #puzzle_heart_vector {
-    grid-row: 4;
-    grid-column: 6/9;
+    grid-row: 5;
+    grid-column: 7/9;
 }
 
 #puzzl-headline-cyan {
-    grid-row: 1;
+    grid-row: 2;
     grid-column: 2/5;
     align-self: center;
 }
@@ -376,8 +365,8 @@ header {
 }
 
 #puzzl-text-cyan {
-    grid-row: 2/9;
-    grid-column: 1/6;
+    grid-row: 3/9;
+    grid-column: 1/7;
     padding: 1rem;
     border-left: 2px solid rgb(13, 208, 208);
     border-top: 2px solid rgb(13, 208, 208);
