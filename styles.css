@@ -538,6 +538,8 @@ span {
     color: rgb(10, 124, 124);
 }
 
+/*Get in touch media querie settings*/
+
 @media (min-width: 360px) {
     .get-in-touch {
         font-size: 0.7rem;
@@ -596,4 +598,15 @@ span {
     .lets-talk-text {
         font-size: 3rem;
     }
+}
+
+/*Email section font settings*/
+
+.email-section {
+    font-size: 1.1rem;
+    line-height: 0.5rem;
+}
+
+thank-you {
+    margin-top: -1.5rem;
 }
