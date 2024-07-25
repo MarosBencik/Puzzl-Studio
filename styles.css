@@ -285,11 +285,6 @@ header {
 
 /*Puzzle head section settings*/
 
-#align_top_end {
-    grid-row: 1;
-    grid-column: 8/9;
-}
-
 #puzzle_head_vector {
     grid-row: 1;
     grid-column: 1/3;
