@@ -444,8 +444,7 @@ header {
 /*Section heading border and alignment settings*/
 
 .border-color-heading {
-    border-top: 2px solid rgb(13, 208, 208);
-    border-left: 2px solid rgb(13, 208, 208);
+
     display: flex;
     justify-content: flex-end
 }
@@ -453,7 +452,8 @@ header {
 /*Citation image color border settings*/
 
 #citation {
-    border-left: 2px solid rgb(13, 208, 208);
+    display: flex;
+    align-self: center;
 }
 
 /*Skills section settings*/
@@ -610,10 +610,10 @@ span {
 /*Email section font settings*/
 
 .email-section {
-    font-size: 1.1rem;
+    font-size: 0.8rem;
     line-height: 0.5rem;
 }
 
-thank-you {
+.thank-you {
     margin-top: -1.5rem;
 }
