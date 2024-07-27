@@ -561,17 +561,18 @@ span {
 
 .get-in-touch {
     font-size: 0.6rem;
-    background-color: rgb(10, 137, 137);
+    background-color: rgb(8, 81, 81);
     color: white;
     border: 1px solid black;
     border-radius: 10px;
     text-align: center;
+    letter-spacing: 2px;
 }
 
 .lets-talk-text {
     font-size: 0.7rem;
     margin-bottom: 5px;
-    color: rgb(10, 124, 124);
+    color: rgb(6, 99, 99);
 }
 
 /*Get in touch media querie settings*/
