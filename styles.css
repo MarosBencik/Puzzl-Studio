@@ -560,9 +560,8 @@ span {
 /*Get in touch button settings*/
 
 .get-in-touch {
-    font-size: 0.6rem;
-    background-color: rgb(8, 81, 81);
-    color: white;
+    font-size: 0.5rem;
+    background-color: rgb(7, 166, 163);
     border: 1px solid black;
     border-radius: 10px;
     text-align: center;
@@ -572,7 +571,7 @@ span {
 .lets-talk-text {
     font-size: 0.7rem;
     margin-bottom: 5px;
-    color: rgb(6, 99, 99);
+    color: rgb(7, 166, 163);
 }
 
 /*Get in touch media querie settings*/
