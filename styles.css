@@ -18,8 +18,17 @@ header {
 
 }
 
+/*General settings for headings, sections etc.*/
+
 #wave-bottom-cyan {
     margin-bottom: 1rem;
+}
+
+/*Headings size settings for home section*/
+
+#puzzle-headline-magenta,
+#puzzle-headline-cyan {
+    font-size: 5rem;
 }
 
 /*Header puzzle pieces alignment*/
@@ -294,6 +303,7 @@ header {
 #puzzl-headline-magenta {
     grid-row: 2;
     grid-column: 3/9;
+    font-size: 1.2rem;
 }
 
 #puzzl-headline-magenta p {
@@ -322,6 +332,7 @@ header {
     grid-row: 1;
     grid-column: 2/5;
     align-self: center;
+    font-size: 1.2rem;
 }
 
 #puzzl-headline-cyan p {
@@ -344,8 +355,14 @@ header {
 /*Puzzl Design media queries settings*/
 
 @media (min-width: 380px) {
+
+    #puzzl-headline-magenta {
+        font-size: 1.5rem;
+    }
+
     #puzzl-headline-cyan {
         grid-row: 1;
+        font-size: 1.5rem;
     }
 }
 
@@ -360,8 +377,11 @@ header {
     }
 
     #puzzl-headline-magenta,
+    #puzzl-headline-cyan {
+        font-size: 2rem;
+    }
+
     #puzzl-text-magenta,
-    #puzzl-headline-cyan,
     #puzzl-text-cyan {
         font-size: 1.3rem;
     }
@@ -373,9 +393,12 @@ header {
 
 @media (min-width: 620px) {
 
-    #puzzl-text-magenta,
     #puzzl-headline-magenta,
-    #puzzl-headline-cyan,
+    #puzzl-headline-cyan {
+        font-size: 2.4rem;
+    }
+
+    #puzzl-text-magenta,
     #puzzl-text-cyan {
         font-size: 1.7rem;
     }
@@ -391,11 +414,14 @@ header {
         font-size: 4rem;
     }
 
-    #puzzl-text-magenta,
     #puzzl-headline-magenta,
-    #puzzl-headline-cyan,
+    #puzzl-headline-cyan {
+        font-size: 2.7rem;
+    }
+
+    #puzzl-text-magenta,
     #puzzl-text-cyan {
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
 
     #puzzl-text-magenta {
@@ -426,11 +452,14 @@ header {
 
 @media (min-width: 2000px) {
 
-    #puzzl-text-magenta,
     #puzzl-headline-magenta,
-    #puzzl-headline-cyan,
+    #puzzl-headline-cyan {
+        font-size: 3.2rem;
+    }
+
+    #puzzl-text-magenta,
     #puzzl-text-cyan {
-        font-size: 2.5rem;
+        font-size: 2.3rem;
     }
 
     #puzzle_vector_design_end {
@@ -610,10 +639,63 @@ span {
 /*Email section font settings*/
 
 .email-section {
-    font-size: 0.8rem;
-    line-height: 0.5rem;
+    font-size: 0.9rem;
+    line-height: 0.8rem;
 }
 
-.thank-you {
-    margin-top: -1.5rem;
+/*Media queries*/
+
+@media(min-width: 380px) {
+
+    .email-section {
+        font-size: 1.1rem;
+    }
+}
+
+@media(min-width: 540px) {
+
+    .email-section {
+        font-size: 1.6rem;
+        line-height: 1.4rem;
+    }
+
+    .icon {
+        font-size: 35px
+    }
+}
+
+@media(min-width: 980px) {
+
+    .email-section {
+        font-size: 2.2rem;
+        line-height: 2.1rem;
+    }
+
+    .icon {
+        font-size: 50px;
+    }
+}
+
+@media(min-width: 1200px) {
+
+    .email-section {
+        font-size: 2.5rem;
+        line-height: 2.8rem;
+    }
+
+    .icon {
+        font-size: 60px;
+    }
+}
+
+@media(min-width: 2000px) {
+
+    .email-section {
+        font-size: 3rem;
+        line-height: 3.2rem;
+    }
+
+    .icon {
+        font-size: 70px;
+    }
 }
