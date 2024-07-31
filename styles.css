@@ -568,7 +568,7 @@ header {
     }
 }
 
-/*Logo services headline colour*/
+/*Logo services categories colour*/
 
 span {
     color: rgba(205, 14, 209, 1);
@@ -591,9 +591,15 @@ a {
     color: white;
 }
 
+.question-headline {
+    font-size: 0.7rem;
+    margin-bottom: 5px;
+    color: rgb(7, 172, 149);
+}
+
 .get-in-touch {
     font-size: 0.5rem;
-    background-color: rgb(6, 64, 62);
+    background-color: rgb(7, 85, 83);
     border: 1px solid black;
     border-radius: 10px;
     text-align: center;
@@ -606,12 +612,6 @@ a {
     transform: scale(1.1);
 }
 
-.lets-talk-text {
-    font-size: 0.7rem;
-    margin-bottom: 5px;
-    color: rgb(12, 108, 105);
-}
-
 /*Get in touch media querie settings*/
 
 @media (min-width: 360px) {
@@ -619,7 +619,7 @@ a {
         font-size: 0.7rem;
     }
 
-    .lets-talk-text {
+    .question-headline {
         font-size: 0.7rem;
     }
 }
@@ -629,7 +629,7 @@ a {
         font-size: 1rem;
     }
 
-    .lets-talk-text {
+    .question-headline {
         font-size: 1.4rem;
     }
 }
@@ -639,7 +639,7 @@ a {
         font-size: 1.1rem;
     }
 
-    .lets-talk-text {
+    .question-headline {
         font-size: 1.5rem;
     }
 }
@@ -649,7 +649,7 @@ a {
         font-size: 1.5rem;
     }
 
-    .lets-talk-text {
+    .question-headline {
         font-size: 1.9rem;
     }
 }
@@ -659,7 +659,7 @@ a {
         font-size: 1.8rem;
     }
 
-    .lets-talk-text {
+    .question-headline {
         font-size: 2.4rem;
     }
 }
@@ -669,12 +669,12 @@ a {
         font-size: 2.2rem;
     }
 
-    .lets-talk-text {
+    .question-headline {
         font-size: 3rem;
     }
 }
 
-/*Email section font settings*/
+/* Contact section font settings*/
 
 .email-section {
     font-size: 0.6rem;
