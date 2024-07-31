@@ -598,6 +598,12 @@ a {
     border-radius: 10px;
     text-align: center;
     letter-spacing: 2px;
+    transition: all 0.2s linear;
+}
+
+.get-in-touch:hover {
+    background-color: rgb(205, 14, 209);
+    transform: scale(1.1);
 }
 
 .lets-talk-text {
