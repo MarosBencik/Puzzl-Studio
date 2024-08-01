@@ -321,7 +321,7 @@ header {
     margin-top: 0.5rem;
 }
 
-.Design-grid-layout {
+Design-grid-layout {
     display: grid;
     grid-template-rows: repeat(8, 12.5%);
     grid-template-columns: repeat(8, 12.5%);
@@ -336,7 +336,7 @@ header {
 }
 
 #puzzl-headline-magenta {
-    grid-row: 1;
+    grid-row: 3;
     grid-column: 3/9;
     font-size: 1.2rem;
 }
@@ -348,7 +348,7 @@ header {
 }
 
 #puzzl-text-magenta {
-    grid-row: 2/9;
+    grid-row: 3/9;
     grid-column: 3/9;
     padding: 0.5rem;
     border-right: 1px solid rgba(205, 14, 209, 1);
@@ -487,10 +487,7 @@ header {
 
 @media (min-width: 2000px) {
 
-    #puzzl-headline-magenta {
-        grid-row: 1;
-    }
-
+    #puzzl-headline-magenta,
     #puzzl-headline-cyan {
         font-size: 3.2rem;
     }
