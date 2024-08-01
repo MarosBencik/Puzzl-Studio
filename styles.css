@@ -321,24 +321,10 @@ header {
     margin-top: 0.5rem;
 }
 
-Design-grid-layout {
-    display: grid;
-    grid-template-rows: repeat(8, 12.5%);
-    grid-template-columns: repeat(8, 12.5%);
-}
-
 /*Puzzle head section settings*/
 
-#puzzle_head_vector {
-    grid-row: 1;
-    grid-column: 1/3;
-    margin-top: 0.5rem;
-}
-
 #puzzl-headline-magenta {
-    grid-row: 3;
-    grid-column: 3/9;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 #puzzl-headline-magenta p {
@@ -348,8 +334,6 @@ Design-grid-layout {
 }
 
 #puzzl-text-magenta {
-    grid-row: 3/9;
-    grid-column: 3/9;
     padding: 0.5rem;
     border-right: 1px solid rgba(205, 14, 209, 1);
     border-bottom: 1px solid rgba(205, 14, 209, 1);
@@ -358,16 +342,9 @@ Design-grid-layout {
 
 /*Puzzle heart section settings*/
 
-#puzzle_heart_vector {
-    grid-row: 5;
-    grid-column: 7/9;
-}
-
 #puzzl-headline-cyan {
-    grid-row: 1;
-    grid-column: 2/5;
-    align-self: center;
     font-size: 1.2rem;
+    align-self: flex-end;
 }
 
 #puzzl-headline-cyan p {
@@ -377,15 +354,11 @@ Design-grid-layout {
 }
 
 #puzzl-text-cyan {
-    grid-row: 2/9;
-    grid-column: 1/7;
     padding: 1rem;
     border-left: 2px solid rgb(13, 208, 208);
     border-top: 2px solid rgb(13, 208, 208);
     align-self: center;
 }
-
-
 
 /*Puzzl Design media queries settings*/
 
@@ -396,16 +369,11 @@ Design-grid-layout {
     }
 
     #puzzl-headline-cyan {
-        grid-row: 1;
         font-size: 1.5rem;
     }
 }
 
 @media(min-width: 540px) {
-
-    #puzzl-headline-cyan {
-        grid-row: 1;
-    }
 
     .design-section-heading {
         font-size: 2rem;
@@ -420,10 +388,6 @@ Design-grid-layout {
     #puzzl-text-cyan {
         font-size: 1.3rem;
     }
-
-    #puzzle_heart_vector {
-        grid-row: 3;
-    }
 }
 
 @media (min-width: 620px) {
@@ -437,10 +401,6 @@ Design-grid-layout {
     #puzzl-text-cyan {
         font-size: 1.7rem;
     }
-
-    #puzzle_heart_vector {
-        grid-row: 3;
-    }
 }
 
 @media (min-width: 980px) {
@@ -451,37 +411,12 @@ Design-grid-layout {
 
     #puzzl-headline-magenta,
     #puzzl-headline-cyan {
-        font-size: 2.7rem;
+        font-size: 3rem;
     }
 
     #puzzl-text-magenta,
     #puzzl-text-cyan {
-        font-size: 1.7rem;
-    }
-
-    #puzzl-text-magenta {
-        grid-row: 2/8;
-        grid-column: 3/8;
-    }
-
-    #puzzl-headline-magenta {
-        grid-row: 1;
-        grid-column: 3/9;
-    }
-
-    #puzzle_head_vector {
-        grid-row: 1;
-        grid-column: 1/3;
-    }
-
-    #puzzle_heart_vector {
-        grid-row: 3;
-        grid-column: 7/9;
-    }
-
-    #puzzl-text-cyan {
-        grid-row: 3/9;
-        grid-column: 1/7;
+        font-size: 2rem;
     }
 }
 
