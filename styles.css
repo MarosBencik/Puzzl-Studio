@@ -465,7 +465,7 @@ header {
     }
 
     #puzzl-headline-magenta {
-        grid-row: 2;
+        grid-row: 1;
         grid-column: 3/9;
     }
 
@@ -487,7 +487,10 @@ header {
 
 @media (min-width: 2000px) {
 
-    #puzzl-headline-magenta,
+    #puzzl-headline-magenta {
+        grid-row: 1;
+    }
+
     #puzzl-headline-cyan {
         font-size: 3.2rem;
     }
