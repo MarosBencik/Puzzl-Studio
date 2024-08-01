@@ -336,7 +336,7 @@ header {
 }
 
 #puzzl-headline-magenta {
-    grid-row: 2;
+    grid-row: 1;
     grid-column: 3/9;
     font-size: 1.2rem;
 }
