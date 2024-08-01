@@ -131,10 +131,6 @@ header {
 
 /*Hover, Media Queries and general settings for Hyperlinks*/
 
-.navigation {
-    margin-top: 1rem;
-}
-
 .navlink {
     position: relative;
     transition: all 0.5s ease-in-out;
@@ -362,17 +358,6 @@ header {
 
 /*Puzzl Design media queries settings*/
 
-@media (min-width: 380px) {
-
-    #puzzl-headline-magenta {
-        font-size: 1.5rem;
-    }
-
-    #puzzl-headline-cyan {
-        font-size: 1.5rem;
-    }
-}
-
 @media(min-width: 540px) {
 
     .design-section-heading {
@@ -381,7 +366,7 @@ header {
 
     #puzzl-headline-magenta,
     #puzzl-headline-cyan {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     #puzzl-text-magenta,
