@@ -232,6 +232,22 @@ header {
 
 /*Media queries settings*/
 
+@media (min-width: 380px) {
+
+    .introduction h1 {
+        font-size: 2.5rem;
+    }
+
+    .introduction h2 {
+        font-size: 2.1rem;
+    }
+
+    .introduction p {
+        text-decoration: underline;
+        font-size: 1.1rem;
+    }
+}
+
 @media (min-width: 540px) {
 
     .section-heading {
@@ -679,4 +695,12 @@ i:hover {
     .copyright {
         font-size: 1rem;
     }
+}
+
+.opacity-75:hover {
+    opacity: 1;
+}
+
+.opacity-75 {
+    transition: all 0.5s linear;
 }
