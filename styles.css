@@ -536,16 +536,17 @@ a {
 .get-in-touch {
     font-size: 0.7rem;
     background-color: rgb(7, 85, 83);
-    border: 1px solid black;
+    border: 2px solid rgb(9, 229, 196);
     border-radius: 10px;
     text-align: center;
-    letter-spacing: 2px;
-
+    letter-spacing: 5px;
+    padding: 5px 20px;
     transition: all 0.2s linear;
 }
 
 .get-in-touch:hover {
-    background-color: rgb(205, 14, 209);
+    background-color: rgb(140, 7, 170);
+    border: 2px solid rgb(247, 0, 255);
     transform: scale(1.1);
 }
 
@@ -695,12 +696,4 @@ i:hover {
     .copyright {
         font-size: 1rem;
     }
-}
-
-.opacity-75:hover {
-    opacity: 1;
-}
-
-.opacity-75 {
-    transition: all 0.5s linear;
 }
